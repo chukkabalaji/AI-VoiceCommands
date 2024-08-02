@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');  
+body {  
+  font-family: 'Montserrat', sans-serif;  
+  padding: 0;  
+  margin: 0;  
+  text-align: left;  
+}  
+h1 {  
+
+  position: relative;  
+  padding: 0;  
+  margin: 10;  
+  font-family: "Raleway", sans-serif;  
+  font-weight: 300;  
+  font-size: 15px;  
+  color: #666;  
+  -webkit-transition: all 0.4s ease 0s;  
+  -o-transition: all 0.4s ease 0s;  
+  transition: all 0.4s ease 0s;   
+}  
+tr:nth-of-type(odd) {   
+    background: #eee;   
+    }  
+    th {   
+    background: #3498db;   
+    color: white;   
+    font-weight: bold;   
+    }  
+  
+@import "compass/css3";  
+.table-editable {    
+  /* position: relative;  
+  justify-content: left; */
+  align-items: left; 
+  .glyphicon {  
+    font-size: 15px;  
+  }  
+}  
+table {       
+
+    width: 750px;   
+    /* border-collapse: collapse;   
+     margin:50px auto;  
+    }    */
+    td, th {   
+    padding: 10px;   
+    border-style: solid;
+    border-width: 1px; 
+    text-align: left;   
+    font-size: 15px;  
+    box-shadow: 5px 5px 5px grey;
+    }  
+.table-remove {  
+  color: #700;  
+  cursor: pointer;  
+  &:hover {  
+    color: #f00;  
+  }  
+}  
+.table-up {  
+  color: #007;  
+  cursor: pointer;  
+  &:hover {  
+    color: #00f;  
+  }  
+}  
+.table-down {  
+  color: #007;  
+  cursor: pointer;  
+  &:hover {  
+    color: #00f;  
+  }  
+}  
+.table-add {  
+  color: #070;  
+  cursor: pointer;  
+  position: absolute;  
+  top: 8px;  
+  right: 0;  
+  &:hover {  
+    color: #0b0;  
+  }  
+}  
